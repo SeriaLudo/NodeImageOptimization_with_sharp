@@ -1,14 +1,5 @@
 {
-  "name": "nodeimageoptimization",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "sharp": "^0.25.4"
+    "sharp": "^0.30.3"
   }
 }

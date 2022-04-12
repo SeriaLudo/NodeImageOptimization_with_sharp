@@ -1,13 +1,8 @@
 const sharp = require("sharp")
 
-sharp("./image.jpg")
-    .resize(500, 200, {
+sharp("FPBsEpTWUAQQ7VB.jpeg")
+    .resize(200, 80, {
         fit: "contain",
-        background: {
-            r: 255,
-            b: 255,
-            g: 0,
-        },
-        position: "left"
+        position: "center"
     })
-    .toFile("out_2.jpg")
+    .toFile("out.png")
